@@ -20,6 +20,9 @@ export default defineConfig(({ mode }) => ({
     analog({
       ssr: true,
       static: true,
+      nitro:{
+        preset: 'cloudflare-pages'
+      },
       prerender: {
         routes: async () => {
           const blogPosts = fs

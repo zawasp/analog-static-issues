@@ -2,7 +2,7 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@analogjs/content':
-    specifier: ^0.2.0-beta.12
+    specifier: 0.2.0-beta.12
     version: 0.2.0-beta.12(@angular/common@16.0.2)(@angular/core@16.0.2)(@angular/platform-browser@16.0.2)(@angular/router@16.0.2)(front-matter@4.0.2)(marked@4.2.12)(prismjs@1.29.0)(rxjs@7.8.1)
   '@analogjs/router':
     specifier: ^0.2.0-beta.12
@@ -72,6 +72,9 @@ devDependencies:
   '@nx/vite':
     specifier: ^16.2.2
     version: 16.2.2(nx@16.2.2)(typescript@5.0.4)(vite@4.3.8)(vitest@0.31.1)
+  destr:
+    specifier: ^1.2.2
+    version: 1.2.2
   jsdom:
     specifier: ^22.0.0
     version: 22.0.0

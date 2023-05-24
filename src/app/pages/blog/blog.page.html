@@ -1,0 +1,6 @@
+<h2>Blog Posts</h2>
+<ul>
+  <li *ngFor="let post of posts">
+    <a href="{{'/blog/'+ post.slug+'/' }}"> {{ post.attributes.title }}</a>
+  </li>
+</ul>
